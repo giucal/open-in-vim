@@ -4,10 +4,8 @@ This is a macOS automation script meant to be incorporated in an Automator
 workflow or application. It opens the provided files inside Vim in a new
 iTerm2 window.
 
-It uses JXA (JavaScript for Automation), the equally obscure and badly
-documented feature as AppleScript automation, except you don't have to
-worry yourself with the problem of how the fuck AppleScript works in the
-first place.
+It uses JXA, JavaScript for Automation, an equally obscure and badly
+documented feature as AppleScript automation.
 
 ### How to use
 
@@ -21,7 +19,7 @@ The application can be launched, dragged on, and bound to file types.
 ### How to hack
 
 If you're curious about how this script could be extended, open the
-Script Editor app and have a look at the iTerm's "dictionary":
+Script Editor app and have a look at iTerm's "dictionary":
 
   - File > Open Dictionary...;
   - Choose iTerm.app;
